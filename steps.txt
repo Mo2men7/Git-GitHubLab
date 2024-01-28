@@ -1,0 +1,19 @@
+1- Creating a new repo in GitHub
+
+2- Connect remote repo with the local one
+     $ git init
+     $ git remote add origin "REPO LINK"
+
+3- Adding new file locally and pushing it to the remote repo
+     $ touch steps.txt
+     $ git add steps.txt
+
+4- Creating any new commit and renaming it after creating it using rebase
+     $ git commit -m "adding the steps file"
+     $ git rebase -i HEAD~1
+     i => to enter the insert mode
+     reword => to choose the renaming option or command
+     rewrite the new name of the commit and "enter"
+
+5- Resetting any commit using soft
+     $ git reset --soft Head~1
