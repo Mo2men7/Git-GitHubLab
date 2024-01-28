@@ -1,3 +1,4 @@
+********** START **********
 1- Creating a new repo in GitHub
 
 2- Connect remote repo with the local one
@@ -17,3 +18,6 @@
 
 5- Resetting any commit using soft
      $ git reset --soft Head~1
+
+
+********** END **********
